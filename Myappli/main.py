@@ -3,7 +3,7 @@ from PIL import Image
 import streamlit as st
 import numpy as np
 import pickle
-f = open('../model.sav','rb')
+f = open('model.sav','rb')
 model_load = pickle.load(f)
 #Fonction prédiction
 
