@@ -34,7 +34,7 @@ def main():
                 unsafe_allow_html=True)
     # Sidebar
     st.sidebar.title("Dévéloppeurs")
-    imageA = Image.open('as.jpg','rb')
+    imageA = Image.open('as.jpg')
     #imageM = Image.open("md.jpeg")
     st.sidebar.image(imageA, caption='Amath SALL, élève ingénieur  à ENSAE', width=100,use_column_width=True )
     #st.sidebar.image(imageM,caption='Mamadou Diallo,élève ingénieur  à ENSAE', width=100,use_column_width=True )
